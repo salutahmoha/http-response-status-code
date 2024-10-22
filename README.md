@@ -29,4 +29,38 @@
 - <p><b>308 Permanent Redirect: </b>The requested resource is now permanently located at a new URL.</p>
 
 ### 4. Client error messages
+- <p><b>400 Bad Request:</b>The server cannot process the request due to malformed syntax.</p>
+- <p><b>401 Unauthorized:</b>Authentication is required to access the resource.</p>
+- <p><b>402 Payment Required:</b>Reserved for future use (initially intended for digital payment systems).</p>
+- <p><b>403 Forbidden:</b>The server understands the request, but refuses to authorize it.</p>
+- <p><b>404 Not Found:</b>The requested resource could not be found.</p>
+- <p><b>405 Method Not Allowed:</b>The request method is not supported for the requested resource.</p>
+- <p><b>406 Not Acceptable:</b>The requested resource is not available in a format that would be acceptable to the client.</p>
+- <p><b>407 Proxy Authentication Required:</b>The client must authenticate with the proxy.</p>
+- <p><b>408 Request Timeout:</b>The server timed out waiting for the request.</p>
+- <p><b>409 Conflict:</b>The request conflicts with the current state of the server.</p>
+- <p><b>410 Gone:</b>The resource requested is no longer available and will not be available again.</p>
+- <p><b>411 Length Required:</b>The request did not specify the length of its content, which is required.</p>
+- <p><b>412 Precondition Failed:</b>One or more conditions given in the request headers evaluated to false.</p>
+- <p><b>413 Payload Too Large:</b>The request is larger than the server is willing or able to process.</p>
+- <p><b>414 URI Too Long: </b>The URL provided was too long for the server to process.</p>
+- <p><b>415 Unsupported Media Type:</b>The request's media format is not supported by the server.</p>
+- <p><b>416 Range Not Satisfiable:</b>The client has asked for a portion of the file, but the server cannot supply that portion.</p>
+- <p><b>417 Expectation Failed:</b>The server cannot meet the requirements of the Expect request-header field.</p>
+- <p><b>418 I'm a teapot:</b>A joke status code defined in RFC 2324, "Hyper Text Coffee Pot Control Protocol."</p>
+- <p><b>419 Page Expired: </b>Session or page has expired (often used in non-standard implementations).</p>
+- <p><b>420 Enhance Your Calm:</b>Used by some sites (like Twitter) to indicate rate-limiting.</p>
+- <p><b>421 Misdirected Request:</b>The request was directed at a server that cannot produce a response.</p>
+- <p><b>422 Unprocessable Entity:</b>The request was well-formed but could not be followed due to semantic errors.</p>
+- <p><b>423 Locked:</b>The resource that is being accessed is locked (WebDAV).</p>
+- <p><b>424 Failed Dependency:</b>The request failed due to failure of a previous request (WebDAV).</p>
+- <p><b>425 Too Early: </b>The server is unwilling to risk processing a request that might be replayed.</p>
+- <p><b>426 Upgrade Required:</b>The client should switch to a different protocol.</p>
+- <p><b>427 (Unused):</b>This status code is not used.</p>
+- <p><b>428 Precondition Required:</b>The origin server requires the request to be conditional.</p>
+- <p><b>429 Too Many Requests:</b>The user has sent too many requests in a given amount of time.</p>
+- <p><b>430 (Unused): </b>This status code is not used.</p>
+- <p><b>431 Request Header Fields Too Large: </b>The server is unwilling to process the request because the header fields are too large.</p>
+- <p><b>451 Unavailable For Legal Reasons:</b>The resource cannot be served due to legal reasons (e.g., censorship).</p>
+
 ### 5. Server error responses
