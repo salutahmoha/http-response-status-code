@@ -64,3 +64,15 @@
 - <p><b>451 Unavailable For Legal Reasons:</b>The resource cannot be served due to legal reasons (e.g., censorship).</p>
 
 ### 5. Server error responses
+- <p><b>500 Internal Server Error: </b>General server error.</p>
+- <p><b>501 Not Implemented: </b>The server does not support the request method.</p>
+- <p><b>502 Bad Gateway: </b>Invalid response from an upstream server.</p>
+- <p><b>503 Service Unavailable: </b>Server overloaded or under maintenance.</p>
+- <p><b>504 Gateway Timeout: </b>Upstream server did not respond in time.</p>
+- <p><b>505 HTTP Version Not Supported: </b>Server does not support the HTTP version used.</p>
+- <p><b>506 Variant Also Negotiates: </b>Internal configuration error related to content negotiation.</p>
+- <p><b>507 Insufficient Storage: </b>Server lacks storage space to complete the request (WebDAV).</p>
+- <p><b>508 Loop Detected: </b>Infinite loop encountered during request processing (WebDAV).</p>
+- <p><b>510 Not Extended: </b>Additional request extensions are required.</p>
+- <p><b>511 Network Authentication Required: </b>Client must authenticate to access the network.</p>
+
