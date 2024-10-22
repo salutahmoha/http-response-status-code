@@ -11,15 +11,22 @@
 - <p><b>202 Accepted:</b>The request has been accepted for processing, but the processing is not complete.</p>
 - <p><b>203 Non-Authoritative Information:</b>The request was successful but the returned meta-information comes from a third-party.</p>
 - <p><b>204 No Content:</b>The request was successful, but there is no content to send back.</p>
-- <p><b>205 Reset Content:</b>The server successfully processed the request, and asks the client to reset the document view.
-</p>
+- <p><b>205 Reset Content:</b>The server successfully processed the request, and asks the client to reset the document view.</p>
 - <p><b>206 Partial Content:</b>The server is delivering only part of the resource due to a range header sent by the client.</p>
-- <p><b>207 Multi-Status:</b>Provides status for multiple independent operations (WebDAV).
-</p>
+- <p><b>207 Multi-Status:</b>Provides status for multiple independent operations (WebDAV).</p>
 - <p><b>208 Already Reported:</b>The members of a DAV binding have already been reported in a previous reply (WebDAV).</p>
-- <p><b>226 IM Used: </b>The server has fulfilled a request for the resource, and the response is a representation of the result of one or more instance-manipulations applied to the current instance.
-</p>
+- <p><b>226 IM Used: </b>The server has fulfilled a request for the resource, and the response is a representation of the result of one or more instance-manipulations applied to the current instance.</p>
 
 ### 3. Redirection messages
+- <p><b>300 Multiple Choices: </b>The request has more than one possible response; user or agent must choose.</p>
+- <p><b>301 Moved Permanently: </b>The URL of the requested resource has been permanently changed.</p>
+- <p><b>302 Found:</b>Temporary redirect to another URL.</p>
+- <p><b>303 See Other:</b>The server is redirecting to a different resource using a GET method.</p>
+- <p><b>304 Not Modified:</b>The resource has not been modified since the last request.</p>
+- <p><b>305 Use Proxy:</b>The requested resource must be accessed through the proxy given by the server.</p>
+- <p><b>306 (Unused):</b>This code was used in previous versions, but is no longer in use.</p>
+- <p><b>307 Temporary Redirect:</b>The requested resource temporarily resides at a different URL.</p>
+- <p><b>308 Permanent Redirect: </b>The requested resource is now permanently located at a new URL.</p>
+
 ### 4. Client error messages
 ### 5. Server error responses
